@@ -70,3 +70,15 @@ a:hover {
     text-decoration-thickness: 2px;
     border-radius: 7px;
 }
+
+/* Second File Contact.html */
+
+.contact-Form{
+    display:grid;
+    grid-template-columns: 16rem;
+}
+
+.contact-h3{
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+}
