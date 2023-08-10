@@ -30,6 +30,9 @@ h3{
  padding: 0;
  font-family: 'Rubik', sans-serif;
 }
+h1{
+    font-family: 'Rubik', sans-serif;
+}
 
 li{
     list-style-type: none;
