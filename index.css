@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 *::selection{
     background-color: #cdb3e9;
     color: #522082;
+    font-family: 'Rubik', sans-serif;
 }
 
 html{
@@ -25,17 +28,20 @@ body{
 h3{
  margin: 0;
  padding: 0;
+ font-family: 'Rubik', sans-serif;
 }
 
 li{
     list-style-type: none;
     display: inline-flex;
     padding: 2rem;
+    font-family: 'Rubik', sans-serif;
 }
 ul{
     display:inline-flex;   
     margin: 0;
     padding: 0; 
+    font-family: 'Rubik', sans-serif;
 }
 .nav-txt{
     height: 2.5rem;
@@ -56,6 +62,7 @@ a{
     text-decoration: none;
     padding: 0;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 a:active{
     background-color:#AB50FF;
@@ -100,6 +107,7 @@ input{
     background-color: #AB50FF;
     border: #AB50FF;
     height: 1.6rem;
+    font-family: 'Rubik', sans-serif;
 }
 input::placeholder{
     color: #522082;
@@ -112,6 +120,7 @@ textarea{
     background-color: #AB50FF;
     border: #AB50FF;
     resize: none;
+    font-family: 'Rubik', sans-serif;
 }
 textarea::placeholder{
     color: #522082;
@@ -124,6 +133,7 @@ button{
     background-color: #AB50FF;
     border: #AB50FF;
     height: 2rem;
+    font-family: 'Rubik', sans-serif;
     
 }
 button:hover{
