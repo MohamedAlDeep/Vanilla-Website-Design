@@ -82,3 +82,41 @@ a:hover {
  padding-bottom: 2rem;
  padding-top: 2rem;
 }
+.contact-inp{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+input{
+    border-radius: 7px;
+    background-color: #AB50FF;
+    border: #AB50FF;
+    height: 1.6rem;
+}
+input::placeholder{
+    color: #522082;
+}
+input:enabled{
+    background-color: #cdb3e9;
+}
+textarea{
+    border-radius: 7px;
+    background-color: #AB50FF;
+    border: #AB50FF;
+    resize: none;
+}
+textarea::placeholder{
+    color: #522082;
+}
+textarea:enabled{
+    background-color: #cdb3e9;
+}
+button{
+    border-radius: 7px;
+    background-color: #AB50FF;
+    border: #AB50FF;
+    height: 2rem;
+    
+}
+button:hover{
+    background-color: #cdb3e9;
+}
