@@ -143,3 +143,6 @@ button:hover{
     background-color: #cdb3e9;
 }
 
+.menu-btn{
+    display: none;
+}

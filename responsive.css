@@ -1,8 +1,44 @@
 @media only screen and (max-width: 400px) {
+    .menu-btn{
+        display: block;
+        position: relative;
+        scale: 1.2;
+        left: 4px;
+        top: -10px;
+    }
     .nav{
         border-radius: 7px;
         background-color: #AB50FF;
         border: #AB50FF;
+        animation-name: GoDown;
+        /* animation-name: GoUp; */
+        animation-duration: 2s;
+        
+    }
+    @keyframes GoDown{
+        from{
+            height: 0;
+        }
+        to{
+            height: 240px
+        }
+    }
+    @keyframes GoUp{
+        from{
+            height: 240px;
+            
+        }
+        to{
+            height: 0;
+            color: rgba(255, 255, 255, 0);
+        }
+    }
+    @keyframes GoDownTxt{
+        from{
+            color: rgba(255, 255, 255, 0);
+        }to{
+            color: black;
+        }
     }
     li{
         list-style-type: none;
@@ -10,10 +46,14 @@
         display: grid;
         grid-template-columns: 20px;
         grid-template-rows: auto;
+        animation-name: GoDownTxt;
+        animation-duration: 5s;
     }
     .nav-txt{
         margin-left: 2rem;
         width: 12rem;
+        animation-name: GoDownTxt;
+        animation-duration: 5s;
     }
     ul{  
         margin: 0;
@@ -21,6 +61,8 @@
         display: grid;
         grid-template-columns: 10px;
         grid-template-rows: 5rem 5rem 5rem;
+        animation-name: GoDownTxt;
+        animation-duration: 5s;
     }
     .contact-content{
         position: absolute;
