@@ -14,7 +14,9 @@ function main(){
          btn.innerHTML = 'Menu'
          btn.style.backgroundColor = '#AB50FF'
          // nav.style.animationName = 'GoUp' not needed anymore
-         main()
+         if(window.innerWidth < 400){
+            main()
+         }
       })
    })
 
