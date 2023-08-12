@@ -1,7 +1,9 @@
 let btn = document.getElementById("btn")
 let nav = document.getElementById('NAV')
 
-function main(){
+
+
+function main(){   
    nav.style.display = 'none'
    btn.addEventListener('click', ()=>{
       nav.style.display = 'block'
@@ -15,5 +17,9 @@ function main(){
          main()
       })
    })
+
 }
-main()
+   
+if(window.innerWidth < 400){
+   main()
+}
